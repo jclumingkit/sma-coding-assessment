@@ -30,3 +30,8 @@ npm i
 ```
 npm run dev
 ```
+
+4. ** Launc app on browser**
+```
+Go to: http://localhost:3001
+```
