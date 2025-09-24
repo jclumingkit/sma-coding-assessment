@@ -1,0 +1,17 @@
+{
+  "name": "sma-coding-assessment",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace web run dev",
+    "dev:server": "npm --workspace server run dev",
+    "dev": "concurrently \"npm run dev:web\" \"npm run dev:server\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
