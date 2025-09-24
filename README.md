@@ -31,7 +31,7 @@ npm i
 npm run dev
 ```
 
-4. **Launc app on browser**
+4. **Launch app on browser**
 ```
 Go to: http://localhost:3001
 ```
